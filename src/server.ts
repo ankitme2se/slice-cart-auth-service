@@ -3,7 +3,7 @@ function welcome(name: string) {
     const user = {
         name: 'Ankit',
     };
-    const u1 = user.name;
+    const u1 = user['name'];
     return name;
 }
 
