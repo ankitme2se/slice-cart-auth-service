@@ -6,16 +6,16 @@
     "scripts": {
         "dev": "node src/server.js",
         "format-fix": "prettier . --write",
-        "format-check": "prettier. --check",
+        "format-check": "prettier --check .",
         "lint-check": "eslint .",
         "lint-fix": "eslint . --fix",
         "test": "echo \"Error: no test specified\" && exit 1",
-        "prepare": "husky"
+        "prepare": "husky install"
     },
     "lint-staged": {
-        "*ts": [
-            "format-fix",
-            "lint-fix"
+        "*.ts": [
+            "npm run format-fix",
+            "npm run lint-fix"
         ]
     },
     "repository": {
