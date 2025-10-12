@@ -16,5 +16,9 @@
 	"bugs": {
 		"url": "https://github.com/ankitme2se/slice-cart-auth-service/issues"
 	},
-	"homepage": "https://github.com/ankitme2se/slice-cart-auth-service#readme"
+	"homepage": "https://github.com/ankitme2se/slice-cart-auth-service#readme",
+	"devDependencies": {
+		"@types/node": "^24.7.2",
+		"typescript": "^5.9.3"
+	}
 }
